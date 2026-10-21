@@ -1,0 +1,4 @@
+interface:
+  display_name: "小红书小工具工作台"
+  short_description: "制作离线小工具，复用拼豆图纸模板，校验并打包交付小红书"
+  default_prompt: "用 $xhs-minitool-studio 制作或修改小红书离线小工具，并完成校验与打包。"
