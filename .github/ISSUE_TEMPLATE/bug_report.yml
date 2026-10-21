@@ -1,0 +1,32 @@
+name: "问题反馈"
+description: "报告安装、拼豆模板、打包或平台兼容性问题"
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: "请先查阅教程。不要上传访问令牌、个人照片或私人草稿。"
+  - type: input
+    id: versions
+    attributes:
+      label: "版本与环境"
+      description: "技能版本、小工具版本、操作系统、AI 工具；平台问题请标明浏览器/模拟器/真机。"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "复现步骤"
+      description: "从哪个操作开始，依次做了什么？"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "预期结果与实际结果"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "报错或最小样例（可选）"
+      description: "可公开的截图、简化输入图或报错文字。"

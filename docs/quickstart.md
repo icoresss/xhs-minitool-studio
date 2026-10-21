@@ -21,7 +21,9 @@ Windows 可尝试 `py -3 --version`，macOS/Linux 可尝试 `python3 --version`�
 
 ## 安装并确认可用
 
-按 [README 安装说明](../README.md#安装-skill) 把整个仓库装进对应工具的技能目录。私有仓库需要已有访问权限；不要把密码或访问令牌贴进对话。
+按 [README 安装说明](../README.md#安装-skill) 把整个仓库装进对应工具的技能目录。公开仓库可以直接克隆，也可从 [v1.0.1 Release](https://github.com/icoresss/xhs-minitool-studio/releases/tag/v1.0.1) 下载技能安装包。不要把密码或访问令牌贴进对话。
+
+下载 ZIP 时选择 `xhs-minitool-studio-1.0.1.zip`，解压后把里面的 xhs-minitool-studio 文件夹放进技能目录。另一个 `bead-helper-template-1.0.1.zip` 是运行示例，不是技能。安装包携带全部模板与教程，不需要另行安装 Python 依赖。
 
 Codex 当前官方文档将个人技能目录列为 `~/.agents/skills/`，项目技能目录为 `.agents/skills/`。之前由安装器装在其他路径并已能正常使用的技能，不必重复安装。Claude Code 的项目技能在 `.claude/skills/`，个人技能在 `~/.claude/skills/`。
 
@@ -177,7 +179,7 @@ P01–P48 是本工具通用参考编号，不能当品牌色号采购。买豆�
 
 ### 在哪里反馈问题？
 
-在仓库 Issues 描述：AI 工具、操作系统、小工具版本、复现步骤、预期和实际结果。图纸问题最好附一张可公开的简化输入图。私有仓库只有获授权用户能访问。
+在仓库 Issues 描述：AI 工具、操作系统、小工具版本、复现步骤、预期和实际结果。图纸问题最好附一张可公开的简化输入图。可以使用仓库的问题模板；公开反馈不要附个人照片、账号凭据或私人草稿。
 
 ## 本次验证范围
 

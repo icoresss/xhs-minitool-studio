@@ -6,6 +6,16 @@
 
 [中文上手教程](docs/quickstart.md) · [常见问题](docs/quickstart.md#常见问题) · [版本记录](CHANGELOG.md)
 
+**公开预览版。** [下载 v1.0.1](https://github.com/icoresss/xhs-minitool-studio/releases/tag/v1.0.1)。已完成本地检查，创服平台与真机验收待完成。
+
+| 下载文件 | 用途 |
+| --- | --- |
+| `xhs-minitool-studio-1.0.1.zip` | 技能安装包，解压后将 xhs-minitool-studio 文件夹放入技能目录 |
+| `bead-helper-template-1.0.1.zip` | 通用小花示例的运行代码包，供按当前官方口令复核、部署测试 |
+| `SHA256SUMS.txt` | 两个 ZIP 的 SHA256 校验值 |
+
+GitHub 自动提供的 Source code ZIP 也是仓库源码，不是小红书运行代码包。
+
 这不是小红书官方技能。平台约束始终以当前上传页改写口令、对应官方 skill 和在线文档为准。本仓库不重新分发官方 skill。
 
 ## 实际效果
@@ -44,7 +54,7 @@ Claude Code：在目标项目目录运行。
 git clone https://github.com/icoresss/xhs-minitool-studio.git .claude/skills/xhs-minitool-studio
 ```
 
-私有仓库需要有访问权限的 GitHub 登录。已存在目录时不要覆盖，先检查现有技能。
+公开仓库可直接克隆，也可下载 Release 中的技能安装包。已存在目录时不要覆盖，先检查现有技能。
 
 安装与发现方式见 [Codex 官方说明](https://developers.openai.com/codex/skills) 和 [Claude Code 官方说明](https://code.claude.com/docs/en/skills)。本项目没有完成所有 AI 宿主客户端的端到端实测。
 
@@ -102,6 +112,6 @@ P 编号属于模板自身，并非任何品牌官方色号。默认素材是通
 
 打包脚本检查结构、静态资源、常见禁用模式及包体，不能解析全部 JavaScript/CSS 语义，也不能代替官方审计或真机验收。交付后需用同一 ZIP 完成创服平台模拟器、Android 真机与 iOS 真机扫码验证。Chrome 61 与真机性能尚未实测。
 
-上传流程和「无可提审的开发包」排查见[中文教程](docs/quickstart.md#上传到小红书)。当前仓库仍为私有，本次更新不改变可见性。
+上传流程和「无可提审的开发包」排查见[中文教程](docs/quickstart.md#上传到小红书)。问题反馈与贡献方法见[贡献说明](CONTRIBUTING.md)。公开 GitHub Release 不表示小工具已通过小红书审核。
 
 源码与通用模板使用 MIT 许可证。第三方官方技能及文档不属于此许可证授权范围。
